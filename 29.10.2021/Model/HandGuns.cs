@@ -18,8 +18,12 @@ namespace _29._10._2021.Model
         public HandGuns(string GunName, Double Weight, Double Power, Double shootingDistance, Double shootingAccuracy, int bulletCapacity, Double barrel, Double caliber) : base(GunName, Weight, Power, shootingDistance, shootingAccuracy, bulletCapacity, barrel, caliber)
         {
         }
+        /// <summary>
+        ///Print all specification gun
+        /// </summary>
         public void Printspec()
         {
+            Console.WriteLine("***********************");
             Console.WriteLine("GunName:" + GunName);
             Console.WriteLine("Weight:" + Weight);
             Console.WriteLine("Power:" + Power);

@@ -16,8 +16,12 @@ namespace _29._10._2021.Model
         {
             ScopeX = scopeX;
         }
+        /// <summary>
+        ///Print all specification gun
+        /// </summary>
         public void Printspec()
         {
+            Console.WriteLine("***********************");
             Console.WriteLine("GunName:" + GunName);
             Console.WriteLine("Weight:" + Weight);
             Console.WriteLine("Power:" + Power);
@@ -26,6 +30,7 @@ namespace _29._10._2021.Model
             Console.WriteLine("barrel:" + Barrel);
             Console.WriteLine("caliber:" + Caliber);
             Console.WriteLine("ScopeX:" + ScopeX);
+           
 
 
         }

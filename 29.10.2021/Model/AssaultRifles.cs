@@ -17,8 +17,12 @@ namespace _29._10._2021.Model
         {
             SelectiveFire = selectiveFire;
         }
+        /// <summary>
+        ///Print all specification gun
+        /// </summary>
         public void Printspec()
         {
+            Console.WriteLine("***********************");
             Console.WriteLine("GunName:" + GunName);
             Console.WriteLine("Weight:" + Weight);
             Console.WriteLine("Power:" + Power);
